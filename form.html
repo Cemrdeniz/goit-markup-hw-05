@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="tr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.min.css"
+    />
+
+    <link rel="stylesheet" href="./css/form.css" />
+    <title>WEBSTUDIO</title>
+  </head>
+
+  <body>
+    <div class="modal">
+      <div class="modal-content">
+        <a class="close-border">
+          <span class="close">&times;</span>
+        </a>
+
+        <h2 class="modal-title">
+          Leave your contacts and we will call you back
+        </h2>
+        <div class="input-container">
+          <label class="form-label">Name</label>
+          <div class="input-icon">
+            <input class="form-input" type="text" id="name" required />
+            <svg class="form-icon">
+              <use xlink:href="images/icomoon/symbol-defs.svg#icon-name"></use>
+            </svg>
+          </div>
+        </div>
+        <div class="input-container">
+          <label class="form-label">Phone</label>
+          <div class="input-icon">
+            <input class="form-input" type="phone" required />
+            <svg class="form-icon">
+              <use xlink:href="images/icomoon/symbol-defs.svg#icon-phone"></use>
+            </svg>
+          </div>
+        </div>
+        <div class="input-container">
+          <label class="form-label">Email</label>
+          <div class="input-icon">
+            <input
+              class="form-input"
+              type="email"
+              required
+              placeholder="E-mail"
+            />
+            <svg class="form-icon">
+              <use xlink:href="images/icomoon/symbol-defs.svg#icon-email"></use>
+            </svg>
+          </div>
+        </div>
+        <div class="input-container">
+          <label class="form-label">Comment</label>
+          <div class="input-icon">
+            <textarea
+              class="form-textarea"
+              name="comment"
+              rows=""
+              cols=""
+              placeholder="Text input"
+            ></textarea>
+          </div>
+        </div>
+        <div class="privacy">
+          <label class="privacy-text">
+            <input
+              type="checkbox"
+              name="answer"
+              value="privacy"
+              class="checkbox"
+            />
+            I accept the terms and conditions of the
+            <a href="#" style="color: #4d5ae5"> Privacy Policy</a>
+          </label>
+        </div>
+
+        <button class="form-button" type="submit">Send</button>
+      </div>
+    </div>
+  </body>
+</html>
