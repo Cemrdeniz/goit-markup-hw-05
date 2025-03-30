@@ -4,7 +4,7 @@
   position: relative;
   box-sizing: border-box;
 }
-.modal {
+.backdrop {
   display: none;
   position: fixed;
   z-index: 1;
@@ -91,9 +91,9 @@
 
 .form-icon {
   position: absolute;
-  width: 18px;
-  height: 24px;
-  top: 18px;
+  width:18px;
+  height: 35px;
+  top: 14px;
   left: 12px;
   padding-top: 2px;
   padding-bottom: 2px;
