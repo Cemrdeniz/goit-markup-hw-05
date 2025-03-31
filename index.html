@@ -46,6 +46,77 @@
     </header>
 
     <main>
+      <section class="is-open">
+        <div class="backdrop">
+          <div class="modal-content">
+            <a class="close-border">
+              <span class="close">&times;</span>
+            </a>
+    
+            <h2 class="modal-title">
+              Leave your contacts and we will call you back
+            </h2>
+            <div class="input-container">
+              <label class="form-label">Name</label>
+              <div class="input-icon">
+                <input class="form-input" type="text" id="name" required  placeholder="Name"/>
+                <svg class="form-icon">
+                  <use xlink:href="images/icomoon/symbol-defs.svg#icon-name"></use>
+                </svg>
+              </div>
+            </div>
+            <div class="input-container">
+              <label class="form-label">Phone</label>
+              <div class="input-icon">
+                <input class="form-input" type="phone" required  placeholder="Phone"/>
+                <svg class="form-icon">
+                  <use xlink:href="images/icomoon/symbol-defs.svg#icon-phone"></use>
+                </svg>
+              </div>
+            </div>
+            <div class="input-container">
+              <label class="form-label">Email</label>
+              <div class="input-icon">
+                <input
+                  class="form-input"
+                  type="email"
+                  required
+                  placeholder="E-mail"
+                />
+                <svg class="form-icon">
+                  <use xlink:href="images/icomoon/symbol-defs.svg#icon-email"></use>
+                </svg>
+              </div>
+            </div>
+            <div class="input-container">
+              <label class="form-label">Comment</label>
+              <div class="input-icon">
+                <textarea
+                  class="form-textarea"
+                  name="comment"
+                  rows=""
+                  cols=""
+                  placeholder="Text input"
+                ></textarea>
+              </div>
+            </div>
+            <div class="privacy">
+              <label class="privacy-text">
+                <input
+                  type="checkbox"
+                  name="answer"
+                  value="privacy"
+                  class="checkbox"
+                />
+                I accept the terms and conditions of the
+                <a href="#" style="color: #4d5ae5"> Privacy Policy</a>
+              </label>
+            </div>
+    
+            <button class="form-button" type="submit">Send</button>
+          </div>
+        </div>
+      </section>
       <section class="slide" id="studio">
         <h1 class="slide-title">Effective Solutions <br />for Your Business</h1>
         <button type="button" class="button1">Order Service</button>
@@ -456,7 +527,7 @@
       </div>
       <div class="subscribe">
           <label class="sub-label">Subscribe</label>
-          <div class="input-container">
+          <div class="sub-container">
             <input class="email" type="email" placeholder="E-mail" />
             <button class="sub-button"type="submit" >Subscribe
               <svg style="width:24px; height:24px; margin-left:10px">

@@ -1,9 +1,4 @@
-* {
-  margin: 0;
-  padding: 0;
-  position: relative;
-  box-sizing: border-box;
-}
+
 .backdrop {
   display: none;
   position: fixed;
@@ -103,7 +98,7 @@
 
 .form-input {
   width: 360px;
-  height: 40px;
+  height: 20px;
   margin-top: 10px;
   border-radius: 4px;
   border: 1px solid #2e2f4266;
