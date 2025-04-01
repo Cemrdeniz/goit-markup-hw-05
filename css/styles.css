@@ -441,8 +441,11 @@ p {
 .sub-button:hover {
   background-color: #45a049;
 }
-.is-open{
+.modal{
   display: none;
+}
+.modal.is-open{
+  display: block;
 }
 .backdrop {
   position: fixed;
